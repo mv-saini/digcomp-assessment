@@ -38,6 +38,7 @@ const evaluation = ref([
 function startQuiz(){
   element.value = json[index.value]
   start.value = true
+  end.value = false
 }
 
 function nextQuestion(){
@@ -96,14 +97,6 @@ function evaluate(){
   }
 }
 
-function doRandom(){
-  evaluation.value.forEach(e => {
-    e.level = Math.floor(Math.random() * (8 - 1 + 1)) + 1;
-  })
-  end.value = true;
-  start.value = false;
-}
-
 function levelName(level) {
   switch(true) {
     case level < 3:
@@ -123,12 +116,22 @@ function levelName(level) {
 
 
 <template> 
-  <v-btn @click="doRandom()" density="compact"></v-btn>
-  <v-container class="margin-custom" v-if="!start && !end">
+
+  <v-container style="background-color: lightgray;" class="rounded-b-xl">
+    <v-row>
+      <v-col cols="3"/>
+      <v-col cols="6" class="text-h3 d-flex justify-center">
+        DigComp Assessment Tool
+      </v-col>
+      <v-col cols="3"/>
+    </v-row>
+  </v-container>
+
+  <v-container style="background-color: lightgray;" class="margin-custom rounded-xl" v-if="!start && !end">
     <v-row>
       <v-col cols="2"/>
       <v-col cols="8" class="d-flex justify-center">
-        <div class="text-h3">Valuta le tue competenze digitali</div>
+        <div class="text-h4">Valuta le tue competenze digitali</div>
       </v-col>
       <v-col cols="2"/> 
     </v-row>
@@ -136,24 +139,27 @@ function levelName(level) {
     <v-row>
       <v-col cols="4"/>
       <v-col cols="4" class="d-flex justify-center">
-        <v-btn color="primary" class="" @click="startQuiz()">INZIA</v-btn>
+        <v-btn color="primary" @click="startQuiz()">INZIA</v-btn>
       </v-col>
       <v-col cols="4"/> 
     </v-row>
   </v-container>
 
   <v-container class="margin-custom" v-if="start">
-    <v-row>
+    <v-row style="background-color: lightgray;" class="rounded-ts-xl rounded-te-xl">
       <v-col cols="3"/>
       <v-col cols="6">
-        <div class="text-h5">
+        <div class="text-overline font-weight-bold">
+          {{ evaluation.at(element.area - 1).area }}
+        </div>
+        <div class="text-h6">
           {{ element.question }}
         </div>
       </v-col>
       <v-col cols="3"/>
     </v-row>
 
-    <v-row>
+    <v-row style="background-color: lightgray;" class="rounded-bs-xl rounded-be-xl">
       <v-col cols="3"/>
       <v-col cols="6" class="d-flex justify-center">
         <v-radio-group v-model="ans">
@@ -173,10 +179,10 @@ function levelName(level) {
   </v-container>
 
   <v-container class="margin-custom-end" v-if="end && !start">
-    <v-row class="mb-8">
+    <v-row>
       <v-col cols="3"/>
       <v-col cols="6" class="d-flex justify-center">
-        <div class="text-h3">
+        <div class="text-h4">
           Le tue competenze digitali sono
         </div>
       </v-col>
@@ -193,7 +199,7 @@ function levelName(level) {
               <p>{{ '&nbsp' + levelName(evaluation[i-1].level) + '&nbsp' + evaluation[i-1].level }}</p>
             </v-expansion-panel-title>
             <v-expansion-panel-text>
-              <v-rating v-model="evaluation[i-1].level" readonly length="8"></v-rating>
+              <v-rating v-model="evaluation[i-1].level" readonly active-color="primary" length="8"></v-rating>
             </v-expansion-panel-text>
           </v-expansion-panel>
         </v-expansion-panels>
@@ -205,7 +211,7 @@ function levelName(level) {
 
 <style scoped>
 .margin-custom{
-  margin-top: 13%;
+  margin-top: 8%;
 }
 
 .margin-custom-end{

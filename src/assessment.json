@@ -4,9 +4,9 @@
     "id": 1,
     "question": "So come copiare e spostare file (ad esempio documenti, immagini, video) tra cartelle, dispositivi o sul cloud.",
     "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
+      {"id": 1, "choice": "Non so come farlo", "points": 0},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
       {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
     ]
   },
@@ -15,92 +15,15 @@
     "id": 2,
     "question": "Quando utilizzo un motore di ricerca, posso sfruttare le sue funzioni avanzate.",
     "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
-      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
-    ]
-  },
-  {
-    "area": 2,
-    "id": 3,
-    "question": "So come utilizzare funzionalità avanzate di videoconferenza (ad esempio moderare, registrare audio e video).",
-    "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
-      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
-    ]
-  },
-  {
-    "area": 3,
-    "id": 4,
-    "question": "So come creare un profilo in ambienti digitali per scopi personali o professionali.",
-    "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
-      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
-    ]
-  },
-  {
-    "area": 3,
-    "id": 5,
-    "question": "So come creare qualcosa di nuovo mescolando diversi tipi di contenuto (ad esempio testo e immagini).",
-    "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
-      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
-    ]
-  },
-  {
-    "area": 3,
-    "id": 6,
-    "question": "So come creare e modificare file di testo digitali (ad esempio Word, OpenDocument, Google Docs).",
-    "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
-      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
-    ]
-  },
-  {
-    "area": 4,
-    "id": 7,
-    "question": "So come verificare che il sito web in cui mi viene chiesto di fornire dati personali sia sicuro (ad esempio siti https, logo di sicurezza o certificato).",
-    "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
-      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
-    ]
-  },
-  {
-    "area": 5,
-    "id": 8,
-    "question": "Quando affronto un problema tecnico, sono in grado di trovare soluzioni su Internet.",
-    "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
-      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
-    ]
-  },
-  {
-    "area": 5,
-    "id": 9,
-    "question": "So come utilizzare strumenti di apprendimento online per migliorare le mie competenze digitali (ad esempio tutorial video, corsi online).",
-    "answers": [
-      {"id": 1, "choice": "Non so come farlo", "points": 0.25},
-      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
-      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
+      {"id": 1, "choice": "Non so come farlo", "points": 0},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
       {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
     ]
   },
   {
     "area": 1,
-    "id": 10,
+    "id": 3,
     "question": "Termine che si riferisce a video o audio falsi creati attraverso l'intelligenza artificiale e che di solito impersonano persone famose in situazioni non reali.",
     "answers": [
       {"id": 1, "choice": "Deepfakes", "points": 1},
@@ -110,18 +33,8 @@
     ]
   },
   {
-    "area": 3,
-    "id": 11,
-    "question": "Quali operazioni possono essere eseguite utilizzando un wiki?",
-    "answers": [
-      {"id": 1, "choice": "Creare contenuti", "points": 0},
-      {"id": 2, "choice": "Modificare i miei contenuti", "points": 1},
-      {"id": 3, "choice": "Modificare i contenuti degli altri utenti.", "points": 0}
-    ]
-  },
-  {
     "area": 1,
-    "id": 12,
+    "id": 4,
     "question": "Indica il tipo di modalità di risparmio energetico che corrisponde alla seguente descrizione: significa che il computer rimane 'addormentato' e quindi non fa nulla, tutto è fermo e in attesa di essere 'svegliato'. Richiede un po' di energia per mantenere la memoria e alcune funzioni minime.",
     "answers": [
       {"id": 1, "choice": "Modalità 'Sleep' o 'idle'", "points": 1},
@@ -131,48 +44,8 @@
     ]
   },
   {
-    "area": 2,
-    "id": 13,
-    "question": "Qual è il messaggio implicito trasmesso quando si scrive in lettere maiuscole?",
-    "answers": [
-      {"id": 1, "choice": "Il messaggio è molto importante", "points": 0},
-      {"id": 2, "choice": "Il messaggio viene urlato", "points": 1},
-      {"id": 3, "choice": "Non significa nulla: il messaggio è scritto in questo modo solo per renderlo più leggibile.", "points": 0}
-    ]
-  },
-  {
-    "area": 3,
-    "id": 14,
-    "question": "Cosa significa 'formattare il testo'?",
-    "answers": [
-      {"id": 1, "choice": "Rimuovere le parti del testo che lo rendono difficile da leggere", "points": 0},
-      {"id": 2, "choice": "Modificare l'aspetto del testo senza alterarne il contenuto", "points": 1},
-      {"id": 3, "choice": "Risolvere errori di ortografia e grammatica nel testo", "points": 0}
-    ]
-  },
-  {
-    "area": 5,
-    "id": 15,
-    "question": "Strumenti come Google Drive, OneDrive e Dropbox ti consentono di accedere ai tuoi file anche senza essere online. Quindi puoi continuare a lavorare anche quando non hai accesso a Internet.",
-    "answers": [
-      {"id": 1, "choice": "Vero", "points": 1},
-      {"id": 2, "choice": "Falso", "points": 0}
-    ]
-  },
-  {
-    "area": 4,
-    "id": 16,
-    "question": "Cos'è il Ransomware?",
-    "answers": [
-      {"id": 1, "choice": "Tecnica utilizzata dai criminali informatici per ottenere informazioni personali e bancarie dagli utenti impersonando un'identità legittima come una banca", "points": 0},
-      {"id": 2, "choice": "Software (o applicazione informatica) progettato con intento maligno (cioè malware), che blocca l'accesso all'attrezzatura informatica o ai dati fino a quando non viene ricevuto il pagamento del riscatto richiesto", "points": 1},
-      {"id": 3, "choice": "Un programma maligno in grado di raccogliere informazioni da un computer per poi inviarle a un server controllato da un criminale informatico", "points": 0},
-      {"id": 4, "choice": "È un programma utilizzato per bloccare la pubblicità delle pagine web", "points": 0}
-    ]
-  },
-  {
     "area": 1,
-    "id": 17,
+    "id": 5,
     "question": "Cosa succede se premiamo la combinazione di tasti CTRL+V (o CMD+V) nell'esplora risorse file?",
     "answers": [
       {"id": 1, "choice": "Si apre una nuova finestra dell'esplora risorse file", "points": 0},
@@ -182,30 +55,8 @@
     ]
   },
   {
-    "area": 3,
-    "id": 18,
-    "question": "Quali sono i principali vantaggi offerti dai contenuti digitali?",
-    "answers": [
-      {"id": 1, "choice": "Risparmia spazio rispetto agli equivalenti in formato analogico ed è ecologico grazie alla generazione di file digitali", "points": 1},
-      {"id": 2, "choice": "Il suo prezzo, poiché tutti i contenuti digitali possono essere trovati e scaricati gratuitamente", "points": 0},
-      {"id": 3, "choice": "La sua sicurezza, poiché i contenuti digitali sono immuni da qualsiasi tipo di minaccia o crimine", "points": 0},
-      {"id": 4, "choice": "La sua uniformità, poiché ogni tipo di contenuto ha un'estensione di file singola, che facilita la sua gestione", "points": 0}
-    ]
-  },
-  {
-    "area": 5,
-    "id": 19,
-    "question": "Qual è lo scopo dello strumento Gomma?",
-    "answers": [
-      {"id": 1, "choice": "Cancella i file in modo sicuro, impedendo la possibilità di recuperarli", "points": 1},
-      {"id": 2, "choice": "Cancella tutti i dati da un computer, inclusi il sistema operativo", "points": 0},
-      {"id": 3, "choice": "Recupera i file eliminati, seguendo la procedura di eliminazione sicura", "points": 0},
-      {"id": 4, "choice": "Genera fattori di identificazione doppi o multipli", "points": 0}
-    ]
-  },
-  {
     "area": 1,
-    "id": 20,
+    "id": 6,
     "question": "I collegamenti alle pagine web che salviamo nella cartella dei preferiti di un computer possono essere accessibili da qualsiasi computer.",
     "answers": [
       {"id": 1, "choice": "Vero", "points": 1},
@@ -213,17 +64,8 @@
     ]
   },
   {
-    "area": 3,
-    "id": 21,
-    "question": "Dal momento che sono condivisi sulla rete, le risorse internet pubblicate da terze persone possono essere utilizzate personalmente o professionalmente a piacimento.",
-    "answers": [
-      {"id": 1, "choice": "Vero", "points": 0},
-      {"id": 2, "choice": "Falso", "points": 1}
-    ]
-  },
-  {
     "area": 1,
-    "id": 22,
+    "id": 7,
     "question": "I video nascosti che carichiamo su YouTube possono essere visti solo dagli utenti che hanno il link del video e non possono essere condivisi tra gli utenti.",
     "answers": [
       {"id": 1, "choice": "Vero", "points": 0},
@@ -231,19 +73,8 @@
     ]
   },
   {
-    "area": 5,
-    "id": 23,
-    "question": "Qual è lo scopo dello strumento Gomma?",
-    "answers": [
-      {"id": 1, "choice": "Cancella i file in modo sicuro, impedendo la possibilità di recuperarli", "points": 1},
-      {"id": 2, "choice": "Cancella tutti i dati da un computer, inclusi il sistema operativo", "points": 0},
-      {"id": 3, "choice": "Recupera i file eliminati, seguendo la procedura di eliminazione sicura", "points": 0},
-      {"id": 4, "choice": "Genera fattori di identificazione doppi o multipli", "points": 0}
-    ]
-  },
-  {
     "area": 1,
-    "id": 24,
+    "id": 8,
     "question": "Quante fonti devono essere consultate per convalidare le informazioni trovate online?",
     "answers": [
       {"id": 1, "choice": "Posso fare affidamento sulla prima fonte perché i server sono responsabili di controllare e convalidare le informazioni.", "points": 0},
@@ -253,39 +84,8 @@
     ]
   },
   {
-    "area": 4,
-    "id": 25,
-    "question": "Strumento che consente di chiudere automaticamente la sessione sulla maggior parte dei siti web più popolari come Amazon, Dropbox, eBay, Gmail, GitHub, Google, MySpace, Netflix, Skype, Tumblr, SoundCloud, Windows Live, Yahoo o YouTube, per citarne alcuni.",
-    "answers": [
-      {"id": 1, "choice": "Egosurfing", "points": 0},
-      {"id": 2, "choice": "Keylogger", "points": 0},
-      {"id": 3, "choice": "Superlogout", "points": 1},
-      {"id": 4, "choice": "Ccleaner", "points": 0}
-    ]
-  },
-  {
     "area": 1,
-    "id": 26,
-    "question": "Sistemi operativi:",
-    "answers": [
-      {"id": 1, "choice": "Spesso vengono forniti per impostazione predefinita senza applicazioni native per eseguire compiti di base come visualizzare un'immagine o un video. I programmi necessari devono essere installati", "points": 0},
-      {"id": 2, "choice": "Spesso vengono forniti con un pacchetto di applicazioni native per eseguire compiti di base come visualizzare un'immagine o ascoltare un audio, ma altre applicazioni alternative non possono essere installate senza disinstallare le precedenti", "points": 0},
-      {"id": 3, "choice": "Spesso vengono forniti con un robusto pacchetto di applicazioni come Gimp, Adobe Photoshop, ecc., quindi non è necessario installare tali strumenti", "points": 0},
-      {"id": 4, "choice": "Spesso vengono forniti con un pacchetto di applicazioni native per eseguire compiti di base come visualizzare un'immagine. Tuttavia, possiamo comunque installare altre applicazioni che preferiamo", "points": 1}
-    ]
-  },
-  {
-    "area": 5,
-    "id": 27,
-    "question": "Lo spazio di archiviazione basato sul cloud veiene utilizzato per memorizzare e condividere file, che sarà accessibile solo dal nostro PC.",
-    "answers": [
-      {"id": 1, "choice": "Vero", "points": 0},
-      {"id": 2, "choice": "Falso", "points": 1}
-    ]
-  },
-  {
-    "area": 1,
-    "id": 28,
+    "id": 9,
     "question": " I file che memorizzano informazioni sull'utente (provenienza, sistema utilizzato, ecc.) e quindi il browser, a seconda di quale abbiamo attivato, conserva informazioni sui siti che visitiamo, su cosa cerchiamo e quando, ecc. In linea di principio, questi dati vengono conservati allo scopo di identificare correttamente l'utente, al fine di offrire un servizio più personalizzato e adattarsi meglio alla nostra navigazione.",
     "answers": [
       {"id": 1, "choice": "Il cloud", "points": 0},
@@ -296,7 +96,7 @@
   },
   {
     "area": 1,
-    "id": 29,
+    "id": 10,
     "question": "A cosa si riferiscono i termini HD, Full HD o 4K?",
     "answers": [
       {"id": 1, "choice": "Alla unità di elaborazione centrale", "points": 0},
@@ -306,12 +106,415 @@
     ]
   },
   {
-    "area": 4,
+    "area": 2,
+    "id": 11,
+    "question": "So come utilizzare funzionalità avanzate di videoconferenza (ad esempio moderare, registrare audio e video).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 12,
+    "question": "Qual è il messaggio implicito trasmesso quando si scrive in lettere maiuscole?",
+    "answers": [
+      {"id": 1, "choice": "Il messaggio è molto importante", "points": 0},
+      {"id": 2, "choice": "Il messaggio viene urlato", "points": 1},
+      {"id": 3, "choice": "Non significa nulla: il messaggio è scritto in questo modo solo per renderlo più leggibile.", "points": 0}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 13,
+    "question": "Perché un file non può essere accettato come allegato di posta elettronica?",
+    "answers": [
+      {"id": 1, "choice": "È un file di testo", "points": 0.00},
+      {"id": 2, "choice": "È un file di immagine", "points": 0.0},
+      {"id": 3, "choice": "È troppo grande", "points": 1.00},
+      {"id": 4, "choice": "Non lo so", "points": 0.00}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 14,
+    "question": "So come pagare beni e servizi che acquisto online (ad esempio utilizzando bonifico bancario diretto, carte di credito/debito, altri sistemi di pagamento online).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 15,
+    "question": "So come utilizzare i servizi di archiviazione online (ad esempio Google Drive, DropBox, iCloud e OneDrive) per condividere i miei file.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 16,
+    "question": "So come invitare le persone a un documento condiviso e fornire loro il corretto livello di accesso.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 17,
+    "question": "So come individuare messaggi e comportamenti online che attaccano determinati gruppi o individui (ad esempio l'incitamento all'odio).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 18,
+    "question": "So come menzionare dove ho trovato un documento online (ad esempio un indirizzo web) e il suo autore.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 19,
+    "question": "Qual è il modo migliore per rispondere al mittente di una email?",
+    "answers": [
+      {"id": 1, "choice": "Inoltra", "points": 0.00},
+      {"id": 2, "choice": "Rispondi", "points": 1.00},
+      {"id": 3, "choice": "Invia una nuova mail", "points": 0.00},
+      {"id": 4, "choice": "Non lo so", "points": 0.00}
+    ]
+  },
+  {
+    "area": 2,
+    "id": 20,
+    "question": "Quale di questi tipi di accesso ti consente di modificare il testo di un documento su Google Drive?",
+    "answers": [
+      {"id": 1, "choice": "Accesso editore", "points": 1.00},
+      {"id": 2, "choice": "Accesso commentatore", "points": 0.00},
+      {"id": 3, "choice": "Accesso visualizzatore", "points": 0.00},
+      {"id": 4, "choice": "Non lo so", "points": 0.00}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 21,
+    "question": "So come creare un profilo in ambienti digitali per scopi personali o professionali.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 22,
+    "question": "So come creare qualcosa di nuovo mescolando diversi tipi di contenuto (ad esempio testo e immagini).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 23,
+    "question": "So come creare e modificare file di testo digitali (ad esempio Word, OpenDocument, Google Docs).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 24,
+    "question": "Sono in grado di rilevare quando i contenuti digitali (ad esempio software, film, musica, libri, TV) sono resi disponibili illegalmente (ad esempio piratati).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 25,
+    "question": "Cosa significa 'formattare il testo'?",
+    "answers": [
+      {"id": 1, "choice": "Rimuovere le parti del testo che lo rendono difficile da leggere", "points": 0},
+      {"id": 2, "choice": "Modificare l'aspetto del testo senza alterarne il contenuto", "points": 1},
+      {"id": 3, "choice": "Risolvere errori di ortografia e grammatica nel testo", "points": 0}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 26,
+    "question": "Quali sono i principali vantaggi offerti dai contenuti digitali?",
+    "answers": [
+      {"id": 1, "choice": "Risparmia spazio rispetto agli equivalenti in formato analogico ed è ecologico grazie alla generazione di file digitali", "points": 1},
+      {"id": 2, "choice": "Il suo prezzo, poiché tutti i contenuti digitali possono essere trovati e scaricati gratuitamente", "points": 0},
+      {"id": 3, "choice": "La sua sicurezza, poiché i contenuti digitali sono immuni da qualsiasi tipo di minaccia o crimine", "points": 0},
+      {"id": 4, "choice": "La sua uniformità, poiché ogni tipo di contenuto ha un'estensione di file singola, che facilita la sua gestione", "points": 0}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 27,
+    "question": "Dal momento che sono condivisi sulla rete, le risorse internet pubblicate da terze persone possono essere utilizzate personalmente o professionalmente a piacimento.",
+    "answers": [
+      {"id": 1, "choice": "Vero", "points": 0},
+      {"id": 2, "choice": "Falso", "points": 1}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 28,
+    "question": "Posso scrivere script, macro e semplici applicazioni (ad esempio codice informatico) per automatizzare un'attività.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.50},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.75},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 3,
+    "id": 29,
+    "question": "In una presentazione, come si cambia il modo in cui le diapositive si spostano dall'una all'altra?",
+    "answers": [
+      {"id": 1, "choice": "Animazioni", "points": 0.00},
+      {"id": 2, "choice": "Disposizione", "points": 0.00},
+      {"id": 3, "choice": "Transizioni", "points": 1.00},
+      {"id": 4, "choice": "Non lo so", "points": 0.00}
+    ]
+  },
+  {
+    "area": 3,
     "id": 30,
+    "question": "In un documento Word, quale funzione dovresti usare per mettere il testo al centro della pagina?",
+    "answers": [
+      {"id": 1, "choice": "Allineamento", "points": 1.00},
+      {"id": 2, "choice": "Rientro", "points": 0.00},
+      {"id": 3, "choice": "Margini", "points": 0.00},
+      {"id": 4, "choice": "Non lo so", "points": 0.00}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 31,
+    "question": "So come verificare che il sito web in cui mi viene chiesto di fornire dati personali sia sicuro (ad esempio siti https, logo di sicurezza o certificato).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 32,
+    "question": "So come limitare o rifiutare l'accesso alla mia posizione geografica.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 33,
+    "question": "So come identificare i messaggi di posta elettronica sospetti che tentano di ottenere le mie informazioni personali.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 34,
+    "question": "So come recuperare informazioni digitali e altri contenuti (ad esempio foto, contatti) da un backup.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 35,
+    "question": "Comprendo i vantaggi e i rischi per la sicurezza quando si utilizzano dispositivi o sistemi connessi a Internet (ad esempio orologi intelligenti, dispositivi domestici intelligenti).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 36,
+    "question": "Cos'è il Ransomware?",
+    "answers": [
+      {"id": 1, "choice": "Tecnica utilizzata dai criminali informatici per ottenere informazioni personali e bancarie dagli utenti impersonando un'identità legittima come una banca", "points": 0},
+      {"id": 2, "choice": "Software (o applicazione informatica) progettato con intento maligno (cioè malware), che blocca l'accesso all'attrezzatura informatica o ai dati fino a quando non viene ricevuto il pagamento del riscatto richiesto", "points": 1},
+      {"id": 3, "choice": "Un programma maligno in grado di raccogliere informazioni da un computer per poi inviarle a un server controllato da un criminale informatico", "points": 0},
+      {"id": 4, "choice": "È un programma utilizzato per bloccare la pubblicità delle pagine web", "points": 0}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 37,
+    "question": "Strumento che consente di chiudere automaticamente la sessione sulla maggior parte dei siti web più popolari come Amazon, Dropbox, eBay, Gmail, GitHub, Google, MySpace, Netflix, Skype, Tumblr, SoundCloud, Windows Live, Yahoo o YouTube, per citarne alcuni.",
+    "answers": [
+      {"id": 1, "choice": "Egosurfing", "points": 0},
+      {"id": 2, "choice": "Keylogger", "points": 0},
+      {"id": 3, "choice": "Superlogout", "points": 1},
+      {"id": 4, "choice": "Ccleaner", "points": 0}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 38,
     "question": " È possibile che si verifichi un'infezione da virus semplicemente collegando una chiavetta USB al nostro computer?",
     "answers": [
       {"id": 1, "choice": "Sì", "points": 1},
       {"id": 2, "choice": "No. L'infezione avviene quando si copiano file infetti dalla chiavetta USB al computer", "points": 0}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 39,
+    "question": "L'uso prolungato del computer può causare problemi fisici alla schiena o alla vista. Cosa dovresti fare per evitarli o ridurli al massimo?",
+    "answers": [
+      {"id": 1, "choice": "Utilizzare uno schermo grande con elevata luminosità", "points": 0},
+      {"id": 2, "choice": "Utilizzare i dispositivi solo in ambienti adeguatamente illuminati", "points": 0},
+      {"id": 3, "choice": "Sedersi in una posizione corretta, alzarsi regolarmente dalla sedia e distogliere lo sguardo dallo schermo", "points": 1},
+      {"id": 4, "choice": "Non lo so", "points": 0}
+    ]
+  },
+  {
+    "area": 4,
+    "id": 40,
+    "question": "Quanta parte di un computer standard può essere riciclata?",
+    "answers": [
+      {"id": 1, "choice": "Quasi tutto", "points": 1},
+      {"id": 2, "choice": "Meno della metà", "points": 0},
+      {"id": 3, "choice": "La maggior parte", "points": 0},
+      {"id": 4, "choice": "Non lo so", "points": 0}
+    ]
+  },
+  {
+    "area": 5,
+    "id": 41,
+    "question": "Quando affronto un problema tecnico, sono in grado di trovare soluzioni su Internet.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 5,
+    "id": 42,
+    "question": "So come utilizzare strumenti di apprendimento online per migliorare le mie competenze digitali (ad esempio tutorial video, corsi online).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 5,
+    "id": 43,
+    "question": "So come selezionare lo strumento, il dispositivo o il servizio giusto per svolgere un determinato compito (ad esempio scegliere il servizio giusto per un incontro online, scegliere tra un laptop o un tablet in base alle proprie esigenze).",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 5,
+    "id": 44,
+    "question": "Sono in grado di modificare le impostazioni del sistema operativo dei miei dispositivi digitali per risolvere problemi tecnici (es. avvio/arresto automatico dei servizi, modifica chiavi di registro)",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 5,
+    "id": 45,
+    "question": "So utilizzare strumenti di dati (ad esempio database, software di analisi dei dati) che gestiscono e organizzano informazioni complesse per prendere decisioni e risolvere problemi.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 5,
+    "id": 46,
+    "question": "So utilizzare le tecnologie digitali e i dispositivi elettronici per creare e innovare processi e prodotti.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
+    ]
+  },
+  {
+    "area": 5,
+    "id": 47,
+    "question": "Quando devo affrontare un problema tecnico, cerco di identificare il problema passo dopo passo.",
+    "answers": [
+      {"id": 1, "choice": "Mai", "points": 0.00},
+      {"id": 2, "choice": "Raramente", "points": 0.33},
+      {"id": 3, "choice": "Spesso", "points": 0.66},
+      {"id": 4, "choice": "Sempre", "points": 1.00}
+    ]
+  },
+  {
+    "area": 5,
+    "id": 48,
+    "question": "So come ottenere feedback affidabili sulla competenza digitale attraverso strumenti di autovalutazione, verifica e certificazione delle competenze digitali.",
+    "answers": [
+      {"id": 1, "choice": "Non so come farlo", "points": 0.00},
+      {"id": 2, "choice": "Posso farlo con aiuto", "points": 0.33},
+      {"id": 3, "choice": "Posso farlo da solo", "points": 0.66},
+      {"id": 4, "choice": "Posso farlo con sicurezza e, se necessario, posso supportare/guidare gli altri", "points": 1.00}
     ]
   }
 ]
